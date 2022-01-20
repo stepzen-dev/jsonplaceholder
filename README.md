@@ -23,7 +23,7 @@ Deploying to StepZen...... done
 Successfully deployed api/happy-bunny at 9:00:07 AM
 ```
 You'll see your StepZen Explorer pop up on your localhost:5000 address:
-*include screenshot of your graphiql editor here with width set to 600* 
+
 <img width="600" alt="Screen Shot 2021-07-01 at 9 08 20 AM" src="https://user-images.githubusercontent.com/54046179/124156000-f3a4d380-da4b-11eb-8f65-738a9cca6f8c.png">
 
 In the left pane, copy and paste:
