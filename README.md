@@ -9,13 +9,16 @@ A StepZen schema for jsonplaceholder.typicode.com -- if you're interested in see
 You'll need to create a [StepZen account](https://stepzen.com/request-invite) first. Once you've got that set up, [git clone](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone) this repository onto your machine and open the working directory.
 
 Open your terminal and [install the StepZen CLI](https://stepzen.com/docs/quick-start). 
-After you've followed the prompts (you can accept the suggested endpoint name-- in my case it was `api/happy-bunny`) and installed the CLI, run `stepzen start`.
+
+Run `git clone https://github.com/stepzen-samples/jsonplaceholder.git && cd jsonplaceholder`
+
+After you've followed the prompts (you can accept the suggested endpoint name-- in my case it was `api/happy-bunny`) and installed the CLI, run `stepzen start`. 
 
 A message similar to this will display:
 ```bash
-Watching ~/gql-github for GraphQL changes
+Watching ~/jsonplaceholder for GraphQL changes
 http://localhost:5000/api/happy-bunny
-File changed: /Users/luciacerchie/gql-github/.git/config
+File changed: /Users/luciacerchie/jsonplaceholder/.git/config
 Deploying to StepZen...... done
 Successfully deployed api/happy-bunny at 9:00:07 AM
 ```
